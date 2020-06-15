@@ -50,7 +50,7 @@ var cognitoIssuer = "https://cognito-idp.<YOUR REGION>.amazonaws.com/".concat(co
 참조3: [Amplify 초기화](https://joondong.tistory.com/99)  
 참조4: [Cognito 소셜 로그인 추가 (실전) - 구글](https://joondong.tistory.com/101)  
 참조5: [[Git Repository]생성된 Cognito Pool에 Pre-SignUp 이벤트 핸들러](https://github.com/JoonDong2/instagureng-cognito-presignup)  
-참조5: [Cognito Pool에 Pre-SignUp 이벤트 등록 핸들러](https://joondong.tistory.com/102)  
+참조5: [Cognito Pool에 Pre-SignUp 이벤트 핸들러 등록(https://joondong.tistory.com/102)  
   
 # 참조
 ### [관련 포스트 목록](https://joondong.tistory.com/151)
