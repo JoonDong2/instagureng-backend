@@ -7,7 +7,7 @@
 3. 인증 수단으로 AWS Cognito 사용
 4. 멀티 사진 선택기, 인스타그램 댓글 UI 카피 등
 ```
-참조 : [준동's 인스타그램 클론코딩 ](https://joondong.tistory.com/92)
+참조 : [준동's 인스타그램 클론코딩 ](https://joondong.tistory.com/92)  
 &nbsp;
 준비할 내용이 상당히 많습니다.  
 서버리스(Serverless) 프레임워크로 작성되었으며, Amplify로 생성된 AWS Cognito User Pool을 사용합니다. 해당 Cognito User Pool에는 [Pre-SignUp 이벤트 핸들러](https://github.com/JoonDong2/instagureng-cognito-presignup)를 등록해야 합니다. 
