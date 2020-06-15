@@ -11,9 +11,9 @@
   
   
 준비할 내용이 상당히 많습니다.  
-서버리스(Serverless) 프레임워크로 작성되었으며, Amplify로 생성된 AWS Cognito User Pool을 사용합니다. 해당 Cognito User Pool에는 [Pre-SignUp 이벤트 핸들러](https://github.com/JoonDong2/instagureng-cognito-presignup)를 등록해야 합니다. 
-Prisma를 사용하여 데이터베이스를 생성해야하고, Prisma 클라이언트도 생성해야 합니다.
-상세한 내용은 아래 링크를 걸어 두었습니다.
+서버리스(Serverless) 프레임워크로 작성되었으며, Amplify로 생성된 AWS Cognito User Pool을 사용합니다. 해당 Cognito User Pool에는 [Pre-SignUp 이벤트 핸들러](https://github.com/JoonDong2/instagureng-cognito-presignup)를 등록해야 합니다.  
+Prisma를 사용하여 데이터베이스를 생성해야하고, Prisma 클라이언트도 생성해야 합니다.  
+상세한 내용은 아래 링크를 걸어 두었습니다.  
 # 수정할 내용
 ### 1. prisma/.env
 DATABASE ENDPOINT 설정  
