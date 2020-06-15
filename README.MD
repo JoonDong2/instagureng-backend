@@ -33,27 +33,27 @@ VALUE = ap-northeast-2_DLRUJODP5
 ```
 var cognitoIssuer = "https://cognito-idp.<YOUR REGION>.amazonaws.com/".concat(cognitoPoolId);
 ```
-&nbsp;
+  
 # 필요한 작업
 ### 데이터베이스 테이블 생성
-참조1: [[인스타그램 클론코딩] Prisma2 데이터 모델링](https://joondong.tistory.com/146)
-참조2: [Prisma2 CLI를 사용하여 데이터베이스 테이블 생성](https://joondong.tistory.com/147)
+참조1: [[인스타그램 클론코딩] Prisma2 데이터 모델링](https://joondong.tistory.com/146)  
+참조2: [Prisma2 CLI를 사용하여 데이터베이스 테이블 생성](https://joondong.tistory.com/147)  
 ### Prisma 클라이언트 생성
-참조: [Prisma2 클라이언트 생성](https://joondong.tistory.com/148)
+참조: [Prisma2 클라이언트 생성](https://joondong.tistory.com/148)  
 ### 서버리스 AWS Lambda 배포
-참조1: [서버리스 GraphQL 백앤드 구성](https://joondong.tistory.com/133)
-참조2: [서버리스 GraphQL 백앤드 구축](https://joondong.tistory.com/136)
-참조3: [서버리스 프레임워크 초기화 및 AWS에 연결](https://joondong.tistory.com/106)
+참조1: [서버리스 GraphQL 백앤드 구성](https://joondong.tistory.com/133)  
+참조2: [서버리스 GraphQL 백앤드 구축](https://joondong.tistory.com/136)  
+참조3: [서버리스 프레임워크 초기화 및 AWS에 연결](https://joondong.tistory.com/106)  
 ### AWS Cognito 생성
-참조1: [[인스타그램 클론코딩] 회원가입 구조](https://joondong.tistory.com/95)
-참조2: [[인스타그램 클론코딩] API 인증 구조](https://joondong.tistory.com/96)
-참조3: [Amplify 초기화](https://joondong.tistory.com/99)
-참조4: [Cognito 소셜 로그인 추가 (실전) - 구글](https://joondong.tistory.com/101)
-참조5: [[Git Repository]생성된 Cognito Pool에 Pre-SignUp 이벤트 핸들러](https://github.com/JoonDong2/instagureng-cognito-presignup)
-참조5: [Cognito Pool에 Pre-SignUp 이벤트 등록 핸들러](https://joondong.tistory.com/102)
-&nbsp;
+참조1: [[인스타그램 클론코딩] 회원가입 구조](https://joondong.tistory.com/95)  
+참조2: [[인스타그램 클론코딩] API 인증 구조](https://joondong.tistory.com/96)  
+참조3: [Amplify 초기화](https://joondong.tistory.com/99)  
+참조4: [Cognito 소셜 로그인 추가 (실전) - 구글](https://joondong.tistory.com/101)  
+참조5: [[Git Repository]생성된 Cognito Pool에 Pre-SignUp 이벤트 핸들러](https://github.com/JoonDong2/instagureng-cognito-presignup)  
+참조5: [Cognito Pool에 Pre-SignUp 이벤트 등록 핸들러](https://joondong.tistory.com/102)  
+  
 # 참조
 ### [관련 포스트 목록](https://joondong.tistory.com/151)
-### [인스타그램 클론코딩 앱 (리액트 네이티브)](https://github.com/JoonDong2/instagureng-app)
-### [인스타그램 클론코딩 백앤드](https://github.com/JoonDong2/instagureng-backend)
-### [인스타그램 클론코딩 Cognito Pre-Signup 핸들러](https://github.com/JoonDong2/instagureng-cognito-presignup)
+### [인스타그램 클론코딩 앱 (리액트 네이티브)](https://github.com/JoonDong2/instagureng-app)  
+### [인스타그램 클론코딩 백앤드](https://github.com/JoonDong2/instagureng-backend)  
+### [인스타그램 클론코딩 Cognito Pre-Signup 핸들러](https://github.com/JoonDong2/instagureng-cognito-presignup)  
