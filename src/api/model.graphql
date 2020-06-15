@@ -1,0 +1,68 @@
+scalar DateTime
+
+type User {
+  id: Int!
+  userName: String!
+  avatar: String
+  email: String!
+  firstName: String
+  lastName: String
+  bio: String
+  posts: [Post!]
+  followers:   [User!]
+  following:   [User!]
+  likes:       [Like!]
+  comments:    [Comment!]
+  createdAt:   DateTime
+  updatedAt:   DateTime
+  fullName: String
+  isFollowing: Boolean
+  isSelf: Boolean
+  postsCount: Int,
+  likesCount: Int
+  commentsCount: Int,
+  followingCount: Int,
+  followersCount: Int
+}
+
+type Post {
+  id:          Int!
+  user:        User
+  userId:      Int
+  location:    String
+  caption:     String
+  files:       [File!]
+  comments:    [Comment!]
+  likes:       [Like!]
+  createdAt:   DateTime
+  updatedAt:   DateTime
+  isLiked: Boolean
+  likesCount: Int
+  commentsCount: Int
+}
+
+type Like {
+  id:      Int!
+  userId:  Int
+  postId:  Int
+  createdAt:   DateTime
+  updatedAt:   DateTime
+}
+
+type Comment {
+  id:      Int!
+  text:    String!
+  user:    User!
+  userId:  Int
+  postId:  Int
+  createdAt:   DateTime
+  updatedAt:   DateTime
+}
+
+type File {
+  id:         Int!
+  url:        String!
+  postId:     Int
+  createdAt:  DateTime
+  updatedAt:  DateTime
+}

@@ -1,0 +1,5 @@
+type Query {
+    existDuplicatedEmail(
+        email: String!, 
+    ): Boolean!
+}

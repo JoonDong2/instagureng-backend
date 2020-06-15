@@ -1,0 +1,31 @@
+{
+  "name": "instagureng-backend",
+  "version": "1.0.0",
+  "description": "instagram clone backend with prisma2",
+  "main": "handler.js",
+  "repository": "https://github.com/JoonDong2/instagureng-backend",
+  "author": "joondong2 <kwonjoondong@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "serverless deploy -v",
+    "offline": "serverless offline start",
+    "generate": "prisma generate"
+  },
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.0.5",
+    "@graphql-tools/merge": "^6.0.5",
+    "@prisma/client": "^2.0.0",
+    "apollo-server-lambda": "^2.13.0",
+    "axios": "^0.19.2",
+    "graphql": "^15.0.0",
+    "graphql-tools": "^5.0.0",
+    "graphql-type-datetime": "^0.2.4",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.0.0",
+    "serverless-offline": "^6.1.4"
+  }
+}
