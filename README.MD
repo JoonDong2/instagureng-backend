@@ -17,12 +17,14 @@ Prisma를 사용하여 데이터베이스를 생성해야하고, Prisma 클라�
 # 수정할 내용
 ### 1. prisma/.env
 DATABASE ENDPOINT 설정  
+  
 **예제**
 ```
 DATABASE_URL="mysql://joondong3:1234@joondong.avnpe1bdkren.ap-northeast-2.rds.amazonaws.com/instagureng?connection_limit=5"
 ```
 ### 2. Lambda 함수 환경변수 설정
 AWS Lambda 홈페이지에 접속해서 해당 인스턴스의 환경 변수를 직접 추가해 주어야 한다.  
+  
 **예제**
 ```
 KEY = COGNITO_POOL_ID
