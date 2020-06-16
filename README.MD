@@ -66,5 +66,5 @@ var cognitoIssuer = "https://cognito-idp.<YOUR REGION>.amazonaws.com/".concat(co
 # 참조
 ### [관련 포스트 목록](https://joondong.tistory.com/151)
 ### [인스타그램 클론코딩 웹(리액트)](https://github.com/JoonDong2/instagureng-frontend)
-### [인스타그램 클론코딩 앱 (리액트 네이티브)](https://github.com/JoonDong2/instagureng-app)  
-### [인스타그램 클론코딩 Cognito Pre-Signup 핸들러](https://github.com/JoonDong2/instagureng-cognito-presignup)  
+### [인스타그램 클론코딩 앱 (리액트 네이티브)](https://github.com/JoonDong2/instagureng-app)
+### [인스타그램 클론코딩 Cognito Pre-Signup 핸들러](https://github.com/JoonDong2/instagureng-cognito-presignup)
