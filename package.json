@@ -16,7 +16,7 @@
     "@graphql-tools/merge": "^6.0.5",
     "@prisma/client": "^2.0.0",
     "apollo-server-lambda": "^2.13.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "graphql": "^15.0.0",
     "graphql-tools": "^5.0.0",
     "graphql-type-datetime": "^0.2.4",
